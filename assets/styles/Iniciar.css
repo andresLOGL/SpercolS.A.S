@@ -1,0 +1,66 @@
+*{
+    margin: 0 auto;
+}
+.body_registro{
+    background-image: url(../img/montebiancoclubhouse-06.jpg);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+.formulario{
+    margin-top: 13%;
+    text-align: center; 
+    font-size: larger;
+    padding: 22px;
+}
+.email{
+    margin: 15px;
+    padding: 18px;
+}
+.contrasena{
+    padding: 1px;
+    margin: 9px;
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.registrar_footer{
+    background-color: rgba(102, 102, 102, 0.452);
+}
+input{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.datos{
+    background-image: url("../img/security.jpg");
+    width: 60%;
+    min-height: 82.75vh;
+    background-size: cover;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 8px 6px 7px 2px rgba(122, 117, 122, 0.75);
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.regresar_inicio{
+    font-size: 20px;
+    padding: 0px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e4e4e;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+@media (width <= 480px) {
+    .datos{
+        width: 55%;
+        min-height: 45px;
+    }
+    .footer_div{
+        margin-top: 100%;
+    }
+}
